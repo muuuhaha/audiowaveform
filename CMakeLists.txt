@@ -303,7 +303,7 @@ if(ENABLE_TESTS)
     # Use EXCLUDE_FROM_ALL to prevent installing googletest headers as part of
     # 'make install'.
     set(BUILD_GMOCK 1)
-    add_subdirectory(googletest EXCLUDE_FROM_ALL)
+    # add_subdirectory(googletest EXCLUDE_FROM_ALL)
 
     set(TESTS
         test/FileFormatTest.cpp
